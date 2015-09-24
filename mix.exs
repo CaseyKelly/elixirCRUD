@@ -15,7 +15,7 @@ defmodule Splurty.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Splurty, []},
-     applications: [:phoenix, :cowboy, :logger]]
+     applications: [:phoenix, :cowboy, :logger, :postgrex, :ecto]]
   end
 
   # Specifies your project dependencies
