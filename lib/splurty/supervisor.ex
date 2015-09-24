@@ -2,7 +2,7 @@ defmodule Splurty.Supervisor do
   use Supervisor
 
   def start_link do
-    :supervisor.start_link(__Module__, [])
+    :supervisor.start_link(__MODULE__, [])
   end
 
   def init([]) do
